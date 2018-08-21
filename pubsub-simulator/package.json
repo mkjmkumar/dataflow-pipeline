@@ -1,0 +1,14 @@
+{
+  "name": "pubsub-simulator",
+  "version": "1.0.0",
+  "description": "Pub/Sub NodeJS simulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tfrantzen@google.com",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.19.0"
+  }
+}
