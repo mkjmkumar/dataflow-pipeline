@@ -4,6 +4,9 @@
 ## Overview
 This project contains a sample data pipeline featuring Google Cloud's Pub/Sub, Dataflow, and BigQuery products. The solution will simulate calculating a windowed average of data received through Pub/Sub and processed with Dataflow. The result will be stored in a BigQuery table.
 
+## Architecture
+![Architecture](architecture.jpg)
+
 ## Setup Project
 1. Create new GCP project
 2. Open the Google Cloud Shell
