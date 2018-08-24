@@ -80,7 +80,7 @@ npm install
 ```
 4. Create service account key
 ```
-gcloud iam service-accounts create service-account.json
+gcloud iam service-accounts create service-account
 gcloud iam service-accounts keys create ~/service-account.json --iam-account service-account@$(gcloud config get-value project).iam.gserviceaccount.com
 ```
 5. Set GOOGLE_APPLICATION_CREDENTIALS to the service account
